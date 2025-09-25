@@ -1,0 +1,272 @@
+﻿<Reisid>
+  <Reis id="1" reisi_number="0093-5289">
+    <Lennufirma>Marcq Airlines</Lennufirma>
+    <Sihtkoht>Amsterdam</Sihtkoht>
+    <Lennujaamad algus_aeg="10:15" loppu_aev="12:45">
+      <Valjumine>Salem Leckrone Airport</Valjumine>
+      <Saabumine>New Chitose Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="7.99" />
+  </Reis>
+  <Reis id="2" reisi_number="52584-950">
+    <Lennufirma>Escoffrey Air</Lennufirma>
+    <Sihtkoht>New York</Sihtkoht>
+    <Lennujaamad algus_aeg="07:45" loppu_aev="10:00">
+      <Valjumine>Inongo Airport</Valjumine>
+      <Saabumine>Havadarya Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="4.99" />
+  </Reis>
+  <Reis id="3" reisi_number="12745-177">
+    <Lennufirma>Treacher Flights</Lennufirma>
+    <Sihtkoht>Seoul</Sihtkoht>
+    <Lennujaamad algus_aeg="20:30" loppu_aev="21:00">
+      <Valjumine>Erbil International Airport</Valjumine>
+      <Saabumine>Tulcea Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="109.99" />
+  </Reis>
+  <Reis id="4" reisi_number="36987-2693">
+    <Lennufirma>Giscken Airways</Lennufirma>
+    <Sihtkoht>Chicago</Sihtkoht>
+    <Lennujaamad algus_aeg="16:30" loppu_aev="09:45">
+      <Valjumine>Ginbata Airport</Valjumine>
+      <Saabumine>Ocean City Municipal Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="12.99" />
+  </Reis>
+  <Reis id="5" reisi_number="21695-791">
+    <Lennufirma>Duckhouse Travel</Lennufirma>
+    <Sihtkoht>Paris</Sihtkoht>
+    <Lennujaamad algus_aeg="20:45" loppu_aev="17:15">
+      <Valjumine>Mazar I Sharif Airport</Valjumine>
+      <Saabumine>Stafsberg Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="19.99" />
+  </Reis>
+  <Reis id="6" reisi_number="46084-111">
+    <Lennufirma>Gertray Express</Lennufirma>
+    <Sihtkoht>Seoul</Sihtkoht>
+    <Lennujaamad algus_aeg="18:45" loppu_aev="19:15">
+      <Valjumine>Namsang Airport</Valjumine>
+      <Saabumine>Cape Romanzof LRRS Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="2.89" />
+  </Reis>
+  <Reis id="7" reisi_number="0009-5014">
+    <Lennufirma>Brocklesby Air</Lennufirma>
+    <Sihtkoht>Chicago</Sihtkoht>
+    <Lennujaamad algus_aeg="19:30" loppu_aev="09:45">
+      <Valjumine>Butterworth Airport</Valjumine>
+      <Saabumine>Bislig Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="39.99" />
+  </Reis>
+  <Reis id="8" reisi_number="54868-4665">
+    <Lennufirma>Medina Airlines</Lennufirma>
+    <Sihtkoht>Lima</Sihtkoht>
+    <Lennujaamad algus_aeg="13:00" loppu_aev="17:15">
+      <Valjumine>Koltsovo Airport</Valjumine>
+      <Saabumine>Floyd Bennett Memorial Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="89.99" />
+  </Reis>
+  <Reis id="9" reisi_number="59762-0489">
+    <Lennufirma>Nehls Jet</Lennufirma>
+    <Sihtkoht>Buenos Aires</Sihtkoht>
+    <Lennujaamad algus_aeg="10:15" loppu_aev="09:00">
+      <Valjumine>Viru Harbour Airstrip</Valjumine>
+      <Saabumine>Tableland Homestead Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="12.99" />
+  </Reis>
+  <Reis id="10" reisi_number="68428-041">
+    <Lennufirma>Degli Abbati Air</Lennufirma>
+    <Sihtkoht>Mumbai</Sihtkoht>
+    <Lennujaamad algus_aeg="07:15" loppu_aev="19:45">
+      <Valjumine>Osaka International Airport</Valjumine>
+      <Saabumine>Springvale Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="12.99" />
+  </Reis>
+  <Reis id="11" reisi_number="53807-409">
+    <Lennufirma>Schindler Lines</Lennufirma>
+    <Sihtkoht>Mumbai</Sihtkoht>
+    <Lennujaamad algus_aeg="19:45" loppu_aev="18:30">
+      <Valjumine>Mandalgobi Airport</Valjumine>
+      <Saabumine>Bachigualato Federal International Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="39.99" />
+  </Reis>
+  <Reis id="12" reisi_number="59915-4001">
+    <Lennufirma>Rochford Air</Lennufirma>
+    <Sihtkoht>Melbourne</Sihtkoht>
+    <Lennujaamad algus_aeg="18:45" loppu_aev="15:15">
+      <Valjumine>Orlando International Airport</Valjumine>
+      <Saabumine>Bhuj Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="27.99" />
+  </Reis>
+  <Reis id="13" reisi_number="13985-529">
+    <Lennufirma>Currell Airways</Lennufirma>
+    <Sihtkoht>Paris</Sihtkoht>
+    <Lennujaamad algus_aeg="15:30" loppu_aev="08:00">
+      <Valjumine>Saint John Airport</Valjumine>
+      <Saabumine>Watertown Regional Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="39.99" />
+  </Reis>
+  <Reis id="14" reisi_number="13537-299">
+    <Lennufirma>Ingledew Express</Lennufirma>
+    <Sihtkoht>Hong Kong</Sihtkoht>
+    <Lennujaamad algus_aeg="13:15" loppu_aev="15:00">
+      <Valjumine>Incheon International Airport</Valjumine>
+      <Saabumine>Emmen Air Base</Saabumine>
+    </Lennujaamad>
+    <Hind value="3.99" />
+  </Reis>
+  <Reis id="15" reisi_number="0703-5775">
+    <Lennufirma>Rospars Travel</Lennufirma>
+    <Sihtkoht>Paris</Sihtkoht>
+    <Lennujaamad algus_aeg="12:30" loppu_aev="14:15">
+      <Valjumine>Rendani Airport</Valjumine>
+      <Saabumine>N'Délé Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="24.99" />
+  </Reis>
+  <Reis id="16" reisi_number="68788-9945">
+    <Lennufirma>Freezor Air</Lennufirma>
+    <Sihtkoht>Atlanta</Sihtkoht>
+    <Lennujaamad algus_aeg="07:15" loppu_aev="19:15">
+      <Valjumine>Malatya Erhaç Airport</Valjumine>
+      <Saabumine>Lolland Falster Maribo Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="29.99" />
+  </Reis>
+  <Reis id="17" reisi_number="68084-086">
+    <Lennufirma>Petheridge Flights</Lennufirma>
+    <Sihtkoht>Delhi</Sihtkoht>
+    <Lennujaamad algus_aeg="20:15" loppu_aev="20:15">
+      <Valjumine>Cenej Airport</Valjumine>
+      <Saabumine>Pocatello Regional Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="149.99" />
+  </Reis>
+  <Reis id="18" reisi_number="54569-0235">
+    <Lennufirma>Belleny Airways</Lennufirma>
+    <Sihtkoht>Paris</Sihtkoht>
+    <Lennujaamad algus_aeg="06:45" loppu_aev="19:00">
+      <Valjumine>Southeast Iowa Regional Airport</Valjumine>
+      <Saabumine>Pula Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="39.99" />
+  </Reis>
+  <Reis id="19" reisi_number="43063-517">
+    <Lennufirma>Bramer Air</Lennufirma>
+    <Sihtkoht>Hong Kong</Sihtkoht>
+    <Lennujaamad algus_aeg="06:30" loppu_aev="10:30">
+      <Valjumine>Uttaradit Airport</Valjumine>
+      <Saabumine>Hiroshima Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="5.49" />
+  </Reis>
+  <Reis id="20" reisi_number="75939-9876">
+    <Lennufirma>Royden Flights</Lennufirma>
+    <Sihtkoht>Frankfurt</Sihtkoht>
+    <Lennujaamad algus_aeg="09:30" loppu_aev="10:45">
+      <Valjumine>Leeward Point Field</Valjumine>
+      <Saabumine>Franklin Municipal-John Beverly Rose Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="2.29" />
+  </Reis>
+  <Reis id="21" reisi_number="54569-6240">
+    <Lennufirma>Kolczynski Air</Lennufirma>
+    <Sihtkoht>Chicago</Sihtkoht>
+    <Lennujaamad algus_aeg="13:15" loppu_aev="21:00">
+      <Valjumine>Jinzhou Airport</Valjumine>
+      <Saabumine>Fresno Chandler Executive Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="69.99" />
+  </Reis>
+  <Reis id="22" reisi_number="52389-154">
+    <Lennufirma>Havill Express</Lennufirma>
+    <Sihtkoht>New York</Sihtkoht>
+    <Lennujaamad algus_aeg="14:15" loppu_aev="21:15">
+      <Valjumine>Sundsvall-Härnösand Airport</Valjumine>
+      <Saabumine>Fuvahmulah Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="19.99" />
+  </Reis>
+  <Reis id="23" reisi_number="21695-605">
+    <Lennufirma>Glavin Airlines</Lennufirma>
+    <Sihtkoht>Paris</Sihtkoht>
+    <Lennujaamad algus_aeg="09:00" loppu_aev="19:15">
+      <Valjumine>Sultan Mahmud Badaruddin II Airport</Valjumine>
+      <Saabumine>Points North Landing Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="12.99" />
+  </Reis>
+  <Reis id="24" reisi_number="48951-8248">
+    <Lennufirma>Jurisch Travel</Lennufirma>
+    <Sihtkoht>Paris</Sihtkoht>
+    <Lennujaamad algus_aeg="20:45" loppu_aev="13:00">
+      <Valjumine>Warukin Airport</Valjumine>
+      <Saabumine>Mooraberree Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="22.99" />
+  </Reis>
+  <Reis id="25" reisi_number="23155-214">
+    <Lennufirma>Cattanach Jet</Lennufirma>
+    <Sihtkoht>Munich</Sihtkoht>
+    <Lennujaamad algus_aeg="12:15" loppu_aev="20:00">
+      <Valjumine>Quonset State Airport</Valjumine>
+      <Saabumine>Ketchikan Harbor Seaplane Base</Saabumine>
+    </Lennujaamad>
+    <Hind value="39.99" />
+  </Reis>
+  <Reis id="26" reisi_number="45737-250">
+    <Lennufirma>Golsby Airways</Lennufirma>
+    <Sihtkoht>Frankfurt</Sihtkoht>
+    <Lennujaamad algus_aeg="14:00" loppu_aev="10:30">
+      <Valjumine>Betoota Airport</Valjumine>
+      <Saabumine>Lekoni Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="4.49" />
+  </Reis>
+  <Reis id="27" reisi_number="55111-556">
+    <Lennufirma>Pellitt Flights</Lennufirma>
+    <Sihtkoht>Paris</Sihtkoht>
+    <Lennujaamad algus_aeg="08:30" loppu_aev="08:30">
+      <Valjumine>Mareeba Airport</Valjumine>
+      <Saabumine>Decatur HI-Way Airfield</Saabumine>
+    </Lennujaamad>
+    <Hind value="59.99" />
+  </Reis>
+  <Reis id="28" reisi_number="50268-816">
+    <Lennufirma>Jouannot Express</Lennufirma>
+    <Sihtkoht>Paris</Sihtkoht>
+    <Lennujaamad algus_aeg="20:45" loppu_aev="11:30">
+      <Valjumine>Kunua Airport</Valjumine>
+      <Saabumine>Bushehr Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="7.99" />
+  </Reis>
+  <Reis id="29" reisi_number="62670-4321">
+    <Lennufirma>Shipman Air</Lennufirma>
+    <Sihtkoht>Paris</Sihtkoht>
+    <Lennujaamad algus_aeg="10:45" loppu_aev="11:00">
+      <Valjumine>Curitibanos Airport</Valjumine>
+      <Saabumine>Lewoleba Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="49.99" />
+  </Reis>
+  <Reis id="30" reisi_number="55301-500">
+    <Lennufirma>Baselio Airlines</Lennufirma>
+    <Sihtkoht>Paris</Sihtkoht>
+    <Lennujaamad algus_aeg="19:00" loppu_aev="19:15">
+      <Valjumine>Turaif Domestic Airport</Valjumine>
+      <Saabumine>Argyle International Airport</Saabumine>
+    </Lennujaamad>
+    <Hind value="59.99" />
+  </Reis>
+</Reisid>

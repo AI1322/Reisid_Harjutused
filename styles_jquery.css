@@ -1,0 +1,17 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: auto;
+}
+
+table td, table tr {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+#container {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}

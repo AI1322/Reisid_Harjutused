@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ee">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jquery ja JSON</title>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" href="styles_jquery.css" />
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+                url: "Reisid.json",
+                dataType: "json",
+                success: KuvaJson,
+                error: vigaJson,
+            });
+        });
+
+        function vigaJson() {
+            $("#container").append('<p style="color:red;">Probleemid JSON failiga!</p>');
+        }
+
+        function KuvaJson(json) {
+            var table = '<table border="1">' +
+                '<tr>' +
+                '<th>ID</th>' +
+                '<th>Reisi number</th>' +
+                '<th>Lennufirma</th>' +
+                '<th>Sihtkoht</th>' +
+                '<th>Algus aeg</th>' +
+                '<th>Lõppu aeg</th>' +
+                '<th>Valjumine</th>' +
+                '<th>Saabumine</th>' +
+                '<th>Hind</th>' +
+                '</tr>';
+
+            $.each(json.Reis, function (voti, vaartus) {
+                var id = vaartus['@attributes'].id;
+                var reisi_number = vaartus['@attributes'].reisi_number;
+                var lennufirma = vaartus.Lennufirma;
+                var sihtkoht = vaartus.Sihtkoht;
+                var algus_aeg = vaartus.Lennujaamad['@attributes'].algus_aeg;
+                var loppu_aev = vaartus.Lennujaamad['@attributes'].loppu_aev;
+                var valjumine = vaartus.Lennujaamad.Valjumine;
+                var saabumine = vaartus.Lennujaamad.Saabumine;
+                var hind = vaartus.Hind['@attributes'].value;
+
+                table +=
+                    '<tr>' +
+                    '<td>' + id + '</td>' +
+                    '<td>' + reisi_number + '</td>' +
+                    '<td>' + lennufirma + '</td>' +
+                    '<td>' + sihtkoht + '</td>' +
+                    '<td>' + algus_aeg + '</td>' +
+                    '<td>' + loppu_aev + '</td>' +
+                    '<td>' + valjumine + '</td>' +
+                    '<td>' + saabumine + '</td>' +
+                    '<td>' + hind + '</td>' +
+                    '</tr>';
+            });
+
+            table += '</table>';
+
+            $("#container").append(table);
+        }
+    </script>
+</head>
+<body>
+<div id="container"></div>
+</body>
+</html>
