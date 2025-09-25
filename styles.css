@@ -1,0 +1,62 @@
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: auto;
+}
+
+table td, table tr {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th { background: lightgrey; }
+
+h1,h2,h3 {align-content: center}
+
+#container {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+/* failid / kood */
+.failid {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#code {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 80%;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 15px;
+    overflow-x: auto;
+}
