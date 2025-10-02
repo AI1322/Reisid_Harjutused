@@ -1,3 +1,4 @@
+/* navigation */
 nav {
     background-color: #333;
     padding: 10px 0;
@@ -22,26 +23,87 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
+/* body */
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #222;
+    margin: 20px 0;
+}
+
+/* idk */
+#container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* tabel */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: auto;
+    margin-top: 20px;
 }
-
-table td, table tr {
-    border: 1px solid black;
+table td, table th {
+    border: 1px solid #888;
     padding: 10px;
     text-align: left;
 }
+th {
+    background-color: #d3d3d3;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
 
-th { background: lightgrey; }
+button, form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+button:hover, form input[type="submit"]:hover {
+    background-color: #333;
+}
 
-h1,h2,h3 {align-content: center}
-
-#container {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid grey;
+/* otsinguvorm */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+form input[type="text"], form select {
+    padding: 5px 10px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    font-size: 14px;
+}
+form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+form input[type="submit"]:hover {
+    background-color: #333;
 }
 
 /* failid / kood */
@@ -50,7 +112,6 @@ h1,h2,h3 {align-content: center}
     gap: 10px;
     justify-content: center;
 }
-
 #code {
     text-align: left;
     margin: 20px auto;

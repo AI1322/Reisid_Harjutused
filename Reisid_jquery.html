@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>jquery ja JSON</title>
+    <title>Reisid JSON</title>
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <script>
@@ -26,42 +26,47 @@
                 '<tr>' +
                 '<th>ID</th>' +
                 '<th>Reisi number</th>' +
-                '<th>Lennufirma</th>' +
+                '<th>Firma</th>' +
                 '<th>Sihtkoht</th>' +
-                '<th>Algus aeg</th>' +
-                '<th>Lõppu aeg</th>' +
-                '<th>Valjumine</th>' +
+                '<th>Kestus</th>' +
+                '<th>Väljumine</th>' +
                 '<th>Saabumine</th>' +
                 '<th>Hind</th>' +
+                '<th>Kogumaksumus</th>' +
                 '</tr>';
 
-            $.each(json.Reis, function (voti, vaartus) {
-                var id = vaartus['@attributes'].id;
-                var reisi_number = vaartus['@attributes'].reisi_number;
-                var lennufirma = vaartus.Lennufirma;
-                var sihtkoht = vaartus.Sihtkoht;
-                var algus_aeg = vaartus.Lennujaamad['@attributes'].algus_aeg;
-                var loppu_aev = vaartus.Lennujaamad['@attributes'].loppu_aev;
-                var valjumine = vaartus.Lennujaamad.Valjumine;
-                var saabumine = vaartus.Lennujaamad.Saabumine;
-                var hind = vaartus.Hind['@attributes'].value;
+            $.each(json.Reisid.Reis, function (i, reis) {
+                var id = reis['@attributes'].id;
+                var reisi_number = reis['@attributes'].reisi_number;
+                var firma = reis.Firma;
+                var sihtkoht = reis.Sihtkoht;
+                var kestus = reis.Lennujaamad['@attributes'].kestus;
+                var valjumine = reis.Lennujaamad.Valjumine;
+                var saabumine = reis.Lennujaamad.Saabumine;
+                var hind = reis.Hind['@attributes'].value;
+
+                // Считаем общую стоимость
+                var transpordiHind = parseFloat(reis.Transport['@attributes'].value);
+                var majutus = parseFloat(reis.Majutus['@attributes'].value);
+                var ekskursioon = parseFloat(reis.Ekskursioonid['@attributes'].value);
+                var muud = parseFloat(reis.MuudKulud['@attributes'].value);
+                var kogumaksumus = transpordiHind + majutus + ekskursioon + muud;
 
                 table +=
                     '<tr>' +
                     '<td>' + id + '</td>' +
                     '<td>' + reisi_number + '</td>' +
-                    '<td>' + lennufirma + '</td>' +
+                    '<td>' + firma + '</td>' +
                     '<td>' + sihtkoht + '</td>' +
-                    '<td>' + algus_aeg + '</td>' +
-                    '<td>' + loppu_aev + '</td>' +
+                    '<td>' + kestus + '</td>' +
                     '<td>' + valjumine + '</td>' +
                     '<td>' + saabumine + '</td>' +
-                    '<td>' + hind + '</td>' +
+                    '<td>' + hind + ' €</td>' +
+                    '<td>' + kogumaksumus + ' €</td>' +
                     '</tr>';
             });
 
             table += '</table>';
-
             $("#container").append(table);
         }
     </script>
@@ -73,7 +78,7 @@
         <li><a href="Reisid_jquery.html">Reisid</a></li>
     </ul>
 </nav>
-<h1>Jquery</h1>
+<h1 class="failid">Reisid (JSON)</h1>
 <div id="container"></div>
 </body>
 </html>
