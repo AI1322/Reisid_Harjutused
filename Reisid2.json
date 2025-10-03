@@ -1,0 +1,1277 @@
+{
+    "Reisid": {
+        "Reis": [
+            {
+                "@attributes": {
+                    "id": "1",
+                    "reisi_number": "0093-5289"
+                },
+                "Firma": "Marcq Airlines",
+                "Sihtkoht": "Amsterdam",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "3:15"
+                    },
+                    "Valjumine": "Salem Leckrone Airport",
+                    "Saabumine": "Schiphol Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "100"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "250"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "50"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "30"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "7.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "2",
+                    "reisi_number": "1023-8451"
+                },
+                "Firma": "Escoffrey Air",
+                "Sihtkoht": "New York",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "8:30"
+                    },
+                    "Valjumine": "London Heathrow Airport",
+                    "Saabumine": "JFK International Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "350"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "400"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "120"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "70"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "49.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "3",
+                    "reisi_number": "5843-1112"
+                },
+                "Firma": "Treacher Flights",
+                "Sihtkoht": "Berlin",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "2:00"
+                    },
+                    "Valjumine": "Warsaw Chopin Airport",
+                    "Saabumine": "Berlin Brandenburg Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Rong",
+                        "value": "80"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "150"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "60"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "25"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "19.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "4",
+                    "reisi_number": "9876-4532"
+                },
+                "Firma": "Giscken Airways",
+                "Sihtkoht": "Chicago",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "9:15"
+                    },
+                    "Valjumine": "Frankfurt Main Airport",
+                    "Saabumine": "O'Hare International Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "420"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "390"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "100"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "80"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "59.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "5",
+                    "reisi_number": "7651-2248"
+                },
+                "Firma": "Duckhouse Travel",
+                "Sihtkoht": "Paris",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "5:45"
+                    },
+                    "Valjumine": "Rome Fiumicino Airport",
+                    "Saabumine": "Charles de Gaulle Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Rong",
+                        "value": "120"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "200"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "80"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "40"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "29.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "6",
+                    "reisi_number": "3012-6541"
+                },
+                "Firma": "Gertray Express",
+                "Sihtkoht": "Seoul",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "11:00"
+                    },
+                    "Valjumine": "San Francisco Airport",
+                    "Saabumine": "Incheon International Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "600"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "500"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "200"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "150"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "89.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "7",
+                    "reisi_number": "2220-7890"
+                },
+                "Firma": "Brocklesby Air",
+                "Sihtkoht": "Helsinki",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "2:20"
+                    },
+                    "Valjumine": "Stockholm Arlanda Airport",
+                    "Saabumine": "Helsinki Vantaa Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Laev",
+                        "value": "70"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "130"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "40"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "20"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "15.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "8",
+                    "reisi_number": "7412-9510"
+                },
+                "Firma": "Medina Airlines",
+                "Sihtkoht": "Lima",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "14:30"
+                    },
+                    "Valjumine": "Madrid Barajas Airport",
+                    "Saabumine": "Jorge Chávez International Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "750"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "600"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "250"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "180"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "109.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "9",
+                    "reisi_number": "1156-4789"
+                },
+                "Firma": "Nordic Travels",
+                "Sihtkoht": "Oslo",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "1:40"
+                    },
+                    "Valjumine": "Copenhagen Airport",
+                    "Saabumine": "Oslo Gardermoen Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Rong",
+                        "value": "60"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "140"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "45"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "25"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "12.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "10",
+                    "reisi_number": "9810-2221"
+                },
+                "Firma": "Atlantic Lines",
+                "Sihtkoht": "London",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "7:20"
+                    },
+                    "Valjumine": "Boston Logan Airport",
+                    "Saabumine": "London Gatwick Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "300"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "260"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "90"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "60"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "39.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "11",
+                    "reisi_number": "7782-4321"
+                },
+                "Firma": "EuroSky",
+                "Sihtkoht": "Barcelona",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "2:30"
+                    },
+                    "Valjumine": "Munich Airport",
+                    "Saabumine": "Barcelona El Prat Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "140"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "220"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "70"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "35"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "24.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "12",
+                    "reisi_number": "6611-9843"
+                },
+                "Firma": "TransBaltic",
+                "Sihtkoht": "Tallinn",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "0:45"
+                    },
+                    "Valjumine": "Riga International Airport",
+                    "Saabumine": "Lennart Meri Tallinn Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Buss",
+                        "value": "30"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "100"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "25"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "15"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "8.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "13",
+                    "reisi_number": "3312-5487"
+                },
+                "Firma": "AsiaWings",
+                "Sihtkoht": "Tokyo",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "13:00"
+                    },
+                    "Valjumine": "Los Angeles International Airport",
+                    "Saabumine": "Tokyo Haneda Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "800"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "650"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "300"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "200"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "129.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "14",
+                    "reisi_number": "9822-1150"
+                },
+                "Firma": "NordRail",
+                "Sihtkoht": "Vienna",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "1:30"
+                    },
+                    "Valjumine": "Prague Airport",
+                    "Saabumine": "Vienna Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Rong",
+                        "value": "65"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "140"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "50"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "20"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "14.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "15",
+                    "reisi_number": "5400-7621"
+                },
+                "Firma": "SkyJet",
+                "Sihtkoht": "Dubai",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "6:45"
+                    },
+                    "Valjumine": "Istanbul Airport",
+                    "Saabumine": "Dubai International Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "270"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "320"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "110"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "55"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "42.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "16",
+                    "reisi_number": "2021-7743"
+                },
+                "Firma": "OceanLines",
+                "Sihtkoht": "Stockholm",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "6:00"
+                    },
+                    "Valjumine": "Helsinki Port",
+                    "Saabumine": "Stockholm Port"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Laev",
+                        "value": "95"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "180"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "60"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "30"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "17.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "17",
+                    "reisi_number": "8876-3391"
+                },
+                "Firma": "Central Europe Air",
+                "Sihtkoht": "Brussels",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "1:15"
+                    },
+                    "Valjumine": "Paris Orly Airport",
+                    "Saabumine": "Brussels Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Rong",
+                        "value": "55"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "150"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "45"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "20"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "12.49"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "18",
+                    "reisi_number": "5550-1109"
+                },
+                "Firma": "FlyCanada",
+                "Sihtkoht": "Toronto",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "9:50"
+                    },
+                    "Valjumine": "Frankfurt Main Airport",
+                    "Saabumine": "Toronto Pearson Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "430"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "370"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "120"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "75"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "54.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "19",
+                    "reisi_number": "6622-4890"
+                },
+                "Firma": "Polar Express",
+                "Sihtkoht": "Rovaniemi",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "1:20"
+                    },
+                    "Valjumine": "Helsinki Vantaa Airport",
+                    "Saabumine": "Rovaniemi Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Rong",
+                        "value": "85"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "140"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "60"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "25"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "18.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "20",
+                    "reisi_number": "9933-8450"
+                },
+                "Firma": "EastAir",
+                "Sihtkoht": "Beijing",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "10:30"
+                    },
+                    "Valjumine": "Paris Charles de Gaulle Airport",
+                    "Saabumine": "Beijing Capital International Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "670"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "520"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "210"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "140"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "99.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "21",
+                    "reisi_number": "2200-7749"
+                },
+                "Firma": "EuroBus",
+                "Sihtkoht": "Warsaw",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "6:15"
+                    },
+                    "Valjumine": "Berlin Central Bus Station",
+                    "Saabumine": "Warsaw Bus Station"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Buss",
+                        "value": "40"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "100"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "35"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "15"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "9.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "22",
+                    "reisi_number": "4432-1170"
+                },
+                "Firma": "Alpine Flights",
+                "Sihtkoht": "Zurich",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "1:50"
+                    },
+                    "Valjumine": "Vienna Airport",
+                    "Saabumine": "Zurich Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "120"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "190"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "75"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "40"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "21.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "23",
+                    "reisi_number": "9910-2215"
+                },
+                "Firma": "Sahara Travel",
+                "Sihtkoht": "Cairo",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "4:20"
+                    },
+                    "Valjumine": "Rome Fiumicino Airport",
+                    "Saabumine": "Cairo International Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "200"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "210"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "90"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "50"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "34.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "24",
+                    "reisi_number": "8871-9901"
+                },
+                "Firma": "NordSea Ferries",
+                "Sihtkoht": "Copenhagen",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "7:00"
+                    },
+                    "Valjumine": "Oslo Port",
+                    "Saabumine": "Copenhagen Port"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Laev",
+                        "value": "85"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "130"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "40"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "25"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "13.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "25",
+                    "reisi_number": "1200-5400"
+                },
+                "Firma": "Southern Air",
+                "Sihtkoht": "Sydney",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "22:30"
+                    },
+                    "Valjumine": "Dubai International Airport",
+                    "Saabumine": "Sydney Kingsford Smith Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "1100"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "750"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "320"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "210"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "149.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "26",
+                    "reisi_number": "6750-8710"
+                },
+                "Firma": "EuroRail",
+                "Sihtkoht": "Milan",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "2:30"
+                    },
+                    "Valjumine": "Zurich HB Station",
+                    "Saabumine": "Milan Centrale Station"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Rong",
+                        "value": "70"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "160"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "55"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "25"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "16.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "27",
+                    "reisi_number": "3110-5401"
+                },
+                "Firma": "TransAsia",
+                "Sihtkoht": "Bangkok",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "11:40"
+                    },
+                    "Valjumine": "Berlin Brandenburg Airport",
+                    "Saabumine": "Suvarnabhumi Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "560"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "420"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "180"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "120"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "82.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "28",
+                    "reisi_number": "1980-9021"
+                },
+                "Firma": "Pacific Cruises",
+                "Sihtkoht": "Honolulu",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "72:00"
+                    },
+                    "Valjumine": "San Diego Port",
+                    "Saabumine": "Honolulu Port"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Laev",
+                        "value": "450"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "600"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "200"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "150"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "119.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "29",
+                    "reisi_number": "3300-7881"
+                },
+                "Firma": "Central EuroLines",
+                "Sihtkoht": "Krakow",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "6:10"
+                    },
+                    "Valjumine": "Vienna Central Station",
+                    "Saabumine": "Krakow Glowny Station"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Buss",
+                        "value": "45"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "120"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "40"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "20"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "10.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "30",
+                    "reisi_number": "9981-2233"
+                },
+                "Firma": "SkyWorld",
+                "Sihtkoht": "Los Angeles",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "11:20"
+                    },
+                    "Valjumine": "Tokyo Narita Airport",
+                    "Saabumine": "LAX Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "720"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "580"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "250"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "160"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "105.99"
+                    }
+                }
+            },
+            {
+                "@attributes": {
+                    "id": "31",
+                    "reisi_number": "8621-2336"
+                },
+                "Firma": "Ass",
+                "Sihtkoht": "Vilnus",
+                "Lennujaamad": {
+                    "@attributes": {
+                        "kestus": "3:15"
+                    },
+                    "Valjumine": "Tallinn Airport",
+                    "Saabumine": "Vilnus Airport"
+                },
+                "Transport": {
+                    "@attributes": {
+                        "tuup": "Lennureis",
+                        "value": "45"
+                    }
+                },
+                "Majutus": {
+                    "@attributes": {
+                        "value": "35"
+                    }
+                },
+                "Ekskursioonid": {
+                    "@attributes": {
+                        "value": "35"
+                    }
+                },
+                "MuudKulud": {
+                    "@attributes": {
+                        "value": "33"
+                    }
+                },
+                "Hind": {
+                    "@attributes": {
+                        "value": "999"
+                    }
+                }
+            }
+        ]
+    }
+}

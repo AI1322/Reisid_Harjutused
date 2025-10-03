@@ -1,7 +1,8 @@
 <?php
-$file = "Reisid.json";
+$file = "Reisid2.json";
 $data = json_decode(file_get_contents($file), true);
 
+// otsing
 function otsing($otsing, $kriterium){
     $data = json_decode(file_get_contents("Reisid.json"), true);
     $leitud = [];
@@ -17,7 +18,6 @@ function otsing($otsing, $kriterium){
     }
     return $leitud;
 }
-
 if (!empty($_POST['search']) && !empty($_POST['kriterium'])) {
     $tulemused = otsing($_POST['search'], $_POST['kriterium']);
 } else {
@@ -34,8 +34,9 @@ if (!empty($_POST['search']) && !empty($_POST['kriterium'])) {
 <body>
 <nav>
     <ul>
-        <li><a href="index.php">Avaleht</a></li>
-        <li><a href="Reisid_jquery.html">Reisid</a></li>
+        <li><a href="index.php">PHP</a></li>
+        <li><a href="Reisid_jquery.html">JQERY</a></li>
+        <li><a href="lisamine.php">Lisamine</a></li>
     </ul>
 </nav>
 <h1 class="failid">PHP Reisid</h1>
