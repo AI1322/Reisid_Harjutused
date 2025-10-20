@@ -106,6 +106,43 @@ form input[type="submit"]:hover {
     background-color: #333;
 }
 
+/* lisamisvorm */
+
+form[method="post"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form[method="post"] label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #333;
+}
+
+form[method="post"] input[type="text"],
+form[method="post"] input[type="number"],
+form[method="post"] select {
+    padding: 6px 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form[method="post"] input[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
 /* failid / kood */
 .failid {
     display: flex;

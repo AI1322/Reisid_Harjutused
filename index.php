@@ -107,7 +107,7 @@ if (!empty($_POST['search']) && !empty($_POST['kriterium'])) {
         } elseif ($_POST['action'] == 'xml') {
             $file = 'Reisid.xml';
         } elseif ($_POST['action'] == 'json') {
-            $file = 'Reisid.json';
+            $file = 'Reisid2.json';
         }
     }
     ?>

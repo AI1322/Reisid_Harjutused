@@ -86,13 +86,13 @@ if (isset($_REQUEST['firma'], $_REQUEST['sihtkoht'], $_REQUEST['valjumine'], $_R
     </ul>
 </nav>
 
-<h1>Lisa uus reis</h1>
+<h1>Reisi lisamine</h1>
 <?php if (!empty($message)) echo "<p style='color:green;'>$message</p>"; ?>
 
 <form method="post">
     <label>Firma: <input type="text" name="firma" required></label>
     <label>Sihtkoht: <input type="text" name="sihtkoht" required></label>
-    <label>Kestus (чч:мм): <input type="text" name="kestus" placeholder="3:15"></label>
+    <label>Kestus (tt:mm): <input type="text" name="kestus" placeholder="3:15"></label>
     <label>Väljumine: <input type="text" name="valjumine" required></label>
     <label>Saabumine: <input type="text" name="saabumine" required></label>
     <label>Transport tüüp:

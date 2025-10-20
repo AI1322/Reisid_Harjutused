@@ -1230,47 +1230,6 @@
                         "value": "105.99"
                     }
                 }
-            },
-            {
-                "@attributes": {
-                    "id": "31",
-                    "reisi_number": "8621-2336"
-                },
-                "Firma": "Ass",
-                "Sihtkoht": "Vilnus",
-                "Lennujaamad": {
-                    "@attributes": {
-                        "kestus": "3:15"
-                    },
-                    "Valjumine": "Tallinn Airport",
-                    "Saabumine": "Vilnus Airport"
-                },
-                "Transport": {
-                    "@attributes": {
-                        "tuup": "Lennureis",
-                        "value": "45"
-                    }
-                },
-                "Majutus": {
-                    "@attributes": {
-                        "value": "35"
-                    }
-                },
-                "Ekskursioonid": {
-                    "@attributes": {
-                        "value": "35"
-                    }
-                },
-                "MuudKulud": {
-                    "@attributes": {
-                        "value": "33"
-                    }
-                },
-                "Hind": {
-                    "@attributes": {
-                        "value": "999"
-                    }
-                }
             }
         ]
     }
